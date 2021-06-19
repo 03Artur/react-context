@@ -2,6 +2,7 @@ import { Component } from 'react';
 import { Header } from './components/Header';
 import { Content } from './components/Content';
 import { ThemeEnum, ThemeContext, UserContext } from './contexts';
+import { Footer } from './components/Footer';
 
 
 export class App extends Component {
@@ -35,6 +36,7 @@ export class App extends Component {
           }}>
             <Header />
             <Content />
+            <Footer />
           </section>
         </ThemeContext.Provider>
       </UserContext.Provider>

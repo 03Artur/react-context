@@ -1,0 +1,14 @@
+.footer {
+    height: 100px;
+}
+
+.footerLight {
+    color: black;
+    background-color: transparent;
+
+}
+
+.footerDark {
+    color: white;
+    background-color: black;
+}

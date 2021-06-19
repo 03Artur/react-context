@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.containerLight {
+    color: black;
+    background-color: transparent;
+}
+
+.containerDark {
+    color: white;
+    background-color: black;
+}
